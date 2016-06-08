@@ -11,9 +11,25 @@ body {
 	margin: 0;
 }
 
+
+
+#opacity {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
 #background-image {
-	background-image: url(https://images.unsplash.com/photo-1459664018906-085c36f472af?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0790a8686cb07ac8851066ef544f1082);
+	background-image: url(http://bit.ly/1Xb8lzU);
 	height: 100%;
 	width: 100%;
 	background-size: cover;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+  	-o-filter: blur(3px);
+  	-ms-filter: blur(3px);
+  	background-filter: blur(3px);
+  	z-index: 0;
 }
+
