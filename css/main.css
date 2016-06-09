@@ -6,6 +6,7 @@ html {
 
 body {
 	background-color: black;
+	background-size: cover;
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -17,11 +18,11 @@ div#opacity {
 	background-color: rgba(0, 0, 0, 0.4);
 	height: 100%;
 	width: 100%;
-	z-index: 1;
+	/*z-index: 1;*/
 	background-size: cover;
 }
 
-#background-image {
+div#home {
 	background-image: url(http://bit.ly/1Xb8lzU);
 	height: 100%;
 	width: 100%;
@@ -31,11 +32,27 @@ div#opacity {
   	-o-filter: blur(3px);
   	-ms-filter: blur(3px);
   	background-filter: blur(3px);
-  	z-index: -1;
+  	/*z-index: -1;*/
+  	/*overflow: hidden;*/
+  	transform: scale(1.03);
+
 }
 
-.parallax-window {
-    min-height: 400px;
+
+
+/*.parallax-window {
+    min-height: 800px;
     background: transparent;
 }
+
+.parallax-window p#work {
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	font-size: 50px;
+	position: absolute;
+	margin-top: 50%;
+}*/
+
+
 
