@@ -13,11 +13,12 @@ body {
 
 
 
-#opacity {
+div#opacity {
 	background-color: rgba(0, 0, 0, 0.4);
 	height: 100%;
 	width: 100%;
 	z-index: 1;
+	background-size: cover;
 }
 
 #background-image {
@@ -30,6 +31,11 @@ body {
   	-o-filter: blur(3px);
   	-ms-filter: blur(3px);
   	background-filter: blur(3px);
-  	z-index: 0;
+  	z-index: -1;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
