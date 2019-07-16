@@ -2,43 +2,174 @@
 <html>
 <head>
 	<title>Alexa Heitzenrader</title>
+	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Oswald&display=swap" rel="stylesheet">
-	<link rel="icon" href="images/alexa-favicon.png" sizes="16x16" type="image/png"> 
+	<link rel="icon" href="images/alexa-favicon.png" sizes="16x16" type="image/png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/blueprint.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<div class="home-page--container">
-	<nav>
-		<ul>
-			<a class="home-icon" href="index.html"><img class="nav-img" src="images/alexa-wordmark.png"></a>
-			<div class="align-right">
-				<li class="nav-li"><a class="nav-link" href="work.html">Work</a></li>
-				<li class="nav-li"><a class="nav-link" href="about.html">About</a></li>
-				<!-- <li class="nav-li"><a class="nav-link" href="contact.html">Contact</a></li> -->
+	<div class="container-fluid no-padding" id="sticky-nav">
+		<div class="row">
+			<div class="col">
+				<nav>
+					<ul>
+						<a class="home-icon" href="index.html"><img class="nav-img" src="images/alexa-wordmark.png"></a>
+						<div class="align-right">
+							<li class="nav-li fade-in"><a class="nav-link active" href="index.html">Projects</a></li>
+							<li class="nav-li"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-li"><a class="nav-link" target="blank" href="assets/alexa-heitzenader-resume.pdf">Resume</a></li>
+							<li class="nav-li"><a class="nav-link" href = "mailto: aheitzen1@gmail.com">Email</a></li>
+
+						</div>
+					</ul>
+				</nav>
 			</div>
-		</ul>
-	</nav>
-	<!-- <h1 class="hello">Hi!</h1> -->
-
-	<h1 class="about">I'm Alexa.</h1>
-	<h2 class="header-h2">User experience and interaction designer</h2>
-	<h2 class="header-sub-h2">(Also an avid board game enthusiast)</h2>
-	<a href="work.html"><p class="browse">Browse my work</p></a>
-	<div class="img-div">
-		<!-- <img class="dots-right" src="images/test2.png"> -->
+		</div>
 	</div>
-</div>
-<!-- <div class="center">
+	<!-- <div class="lottie" id="test-animation" data-animation-path="assets/" data-anim-loop="true"></div> -->
+	<div class="container home-page--container">
+		<div class="row">
+			<div class="col">
+				<h1 class="about">Hi I'm Alexa.</h1>
+				<h1 class="about-h2" id="mobile-e-i">An experience and interaction designer in sunny Seattle.</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h2 class="hero-h2">My design practice is directly influenced by my work in psychology and development as the processes of research, validation, prototyping, and testing all inform my design thinking and process. I am committed to creating ethical, accessible, and intuitive experiences that positively impact individuals, communities, and the environment.</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h2 class="hero-h2">I am currently looking for user experience and user interface roles in the Seattle area. If you think we would be a good match, feel free to reach out at <a class="mail-to-link" href = "mailto: aheitzen1@gmail.com">aheitzen1@gmail.com</a>
+				 </h2>
+			</div>
+		</div>
+	</div>
+	<!-- WORK SECTION -->
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="selected-work">
+					<h1 class="selected-work-h1">Selected work</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row wow fadeIn">
+			<div class="col mobile-ugh">
+				<img class="work-thumbnail" src="images/co-thumb-2.jpg">
+			</div>
+			<div class="col flexy-center">
+				<h4 class="work-title">Carry On</h4>
+				<p class="work-type"><strong>UX | UI | Marketing</strong></p>
+				<h3 class="h3-work-page">Enhancing travel for Alaska Airlines Mileage Plan Members with unforgettable experiences in over 150 destinations.</h3>
+				<button onclick="window.location.href = 'carryon.html';">View case study</button>
+			</div>
+		</div>
+	</div>
+	<div class="container margin-top">
+		<div class="row wow fadeIn mobile-reverse mobile-margin-top-12">
+			<div class="col flexy-center">
+				<h4 class="work-title">Star Signs</h4>
+				<p class="work-type">Animation | Development</p>
+				<h3 class="h3-work-page">Bridging the gap between technology and illustration, one horoscope at a time.</h3>
+				<button onclick="window.location.href = 'starsigns.html';">View Project</button>
+			</div>
+			<div class="col mobile-centered">
+				<img class="work-thumbnail" src="images/ss-thumb.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="container margin-top">
+		<div class="row wow fadeIn mobile-margin-top-12">
+			<div class="col mobile-centered">
+				<img class="work-thumbnail" src="images/Untitled-6.jpg">
+			</div>
+			<div class="col flexy-center">
+				<h4 class="work-title">Portshowlio 19</h4>
+				<p class="work-type">Team Lead | Development</p>
+				<h3 class="h3-work-page">Building a website to celebrate SCCA’s graduating class of 2019’s work.</h3>
+				<button onclick="window.location.href = 'portshowlio19.html';">View project</button>
+			</div>
+		</div>
+	</div>
+	<div class="container margin-top">
+		<div class="row wow fadeIn mobile-reverse mobile-margin-top-12">
+			<div class="col flexy-center">
+				<h4 class="work-title">Choice</h4>
+				<p class="work-type">UX | UI | Marketing</p>
+				<h3 class="h3-work-page">Providing accessible and affordable birth control to women in contraception deserts.</h3>
+				<button onclick="window.location.href = 'choice.html';">View case study</button>
+			</div>
+			<div class="col mobile-centered">
+				<img class="work-thumbnail" src="images/choice-thumb.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="container margin-top">
+		<div class="row wow fadeIn mobile-margin-top-12">
+			<div class="col mobile-centered">
+				<img class="work-thumbnail" src="images/mag-thumb2.jpg">
+			</div>
+			<div class="col flexy-center">
+				<h4 class="work-title">Open Source Magazine</h4>
+				<p class="work-type">Layout Design | Print Design</p>
+				<h3 class="h3-work-page">Synthesizing UI design and development into a single print publication.</h3>
+				<button onclick="window.location.href = 'opensource.html';">View project</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-xs-12">
+				<h1 class="thanks-browsing">Thanks for browsing through my work!</h1>
+				<h2 class="thanks-browsing-h2">If you would like to work together please feel free to contact me by email at <a class="mail-to-link" href = "mailto: aheitzen1@gmail.com">aheitzen1@gmail.com</a></h2>
+			</div>
+		</div>
+		<div class="row margin-bottom">
+			<div class="col">
+				<p class="thanks-browsing-h2">For additional ways to get in touch, please download my resume<a class="mail-to-link" target="blank" href="assets/alexa-heitzenader-resume.pdf"> here.</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row footer-mobile">
+			<div class="col mobile-margin-sm">
+				<a class="sub-footer-p" href = "mailto: aheitzen1@gmail.com">Email me</a>
+			</div>
+			<div class="col mobile-margin-sm">
+				<a class="sub-footer-p" target="blank" href="http://seattlecentralnewmedia.com/alexaheitzenrader/">Follow my blog</a>
+			</div>
+			<div class="col mobile-margin-sm">
+				<a class="sub-footer-p" target="blank" href="assets/alexa-heitzenrader-resume.pdf">Download my resume</a>
+			</div>
+			<div class="col back-up">
+				<a href="">
+					<p class="sub-footer-p" id="back-up">
+						<i class="fas fa-chevron-up"></i>&nbsp;Back to top
+					</p>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<p class="min-footer-2">Alexa Heitzenrader | 2019</p>
+			</div>
+		</div>
+	</div>
 
-</div> -->
-
-
-
-
-	
 <script type="text/javascript" src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.2/lottie.js"
+></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
 <script type="text/javascript" src="js/wow.js"></script>		
 <script type="text/javascript" src="js/main.js"></script>	
 </body>

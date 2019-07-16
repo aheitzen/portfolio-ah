@@ -9,72 +9,32 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style type="text/css">
+		html, body {
+			background-color: white;
+			height: 100%;
+			width: 100%;
+		}
+	</style>
 </head>
 <body>
-
-<div class="individual-project-container">
-	<!-- <nav>
-		<ul>
-			<a class="home-icon" href="index.html"><img class="nav-img" src="images/alexa-wordmark.png"></a>
-			<div class="align-right">
-				<li class="nav-li"><a class="nav-link" href="work.html">Work</a></li>
-				<li class="nav-li"><a class="nav-link" href="about.html">About</a></li>
-			</div>
-		</ul>
-	</nav> -->
-	<!-- <div class="intro-section">
-		<h1 class="project-post-h1">Open Source</h1>
-		<div class="section-section">
-			<h2 class="project-post-h2">Approachable tech talk for creatives</h2>
-			<h3 class="project-post-h3">Timeframe: 10 weeks</h3>
-			<h3 class="project-post-h3">Skills:</h3>
-			<ul class="project-post-ul"> 
-				<li>Layout</li>
-				<li>Illustration</li>
-				<li>Production</li>
-			</ul>
-		<h3 class="project-post-h3">Tools:</h3>
-			<ul class="project-post-ul"> 
-				<li>InDesign</li>
-				<li>Photoshop</li>
-				<li>Illustrator</li>
-			</ul>
-		</div>
-		 
-			
-		
-	</div> -->
-	<!-- <div class="container-fluid">
-		<div class="row">
-			<div class="col no-padding">
-				<h1 class="project-post-h1">Open Source</h1>
-				<h2 class="project-post-h2">Approachable tech talk for creatives</h2>
-			</div>
-		</div>
+	<div class="container-fluid no-padding" id="sticky-nav">
 		<div class="row">
 			<div class="col">
-				<h3 class="project-post-h3">Timeframe: 10 weeks</h3>
+				<nav>
+					<ul>
+						<a class="home-icon" href="index.html"><img class="nav-img" src="images/alexa-wordmark.png"></a>
+						<div class="align-right">
+							<!-- <li class="nav-li"><a class="nav-link" href="work.html">Work</a></li> -->
+							<li class="nav-li"><a class="nav-link" href="about.html">About</a></li>
+						</div>
+					</ul>
+				</nav>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-2">
-				<h3 class="project-post-h3">Skills:</h3>
-				<ul class="project-post-ul"> 
-					<li>Layout</li>
-					<li>Illustration</li>
-					<li>Production</li>
-				</ul>
-			</div>
-			<div class="col-2">
-				<h3 class="project-post-h3">Tools:</h3>
-				<ul class="project-post-ul"> 
-					<li>InDesign</li>
-					<li>Photoshop</li>
-					<li>Illustrator</li>
-				</ul>
-			</div>
-		</div>
-	</div> -->
+	</div>
+
+<div class="individual-project-container">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-6">
@@ -82,42 +42,37 @@
 				<h2 class="project-post-h2">Approachable tech talk for creatives</h2>
 				<h3 class="project-post-h3">Timeframe: 10 weeks</h3>
 				<div class="inline">
-				<!-- <h3 class="project-post-h3">Skills:</h3> -->
-				<ul class="project-post-ul"><span>Skills:</span>
-					<li>Layout</li>
-					<li>Illustration</li>
-					<li>Production</li>
-				</ul>
-				<!-- <h3 class="project-post-h3">Tools:</h3> -->
-				<ul class="project-post-ul" id="tools"><span>Tools:</span>
-					<li>InDesign</li>
-					<li>Photoshop</li>
-					<li>Illustrator</li>
-				</ul>
+					<ul class="project-post-ul"><span>Skills:</span>
+						<li>Layout</li>
+						<li>Illustration</li>
+						<li>Production</li>
+					</ul>
+					<ul class="project-post-ul" id="tools"><span>Tools:</span>
+						<li>InDesign</li>
+						<li>Photoshop</li>
+						<li>Illustrator</li>
+					</ul>
 				</div>
 			</div>
 			<div class="col-6">
 				<img class="featured-project-thumb" src="images/mag-thumb2.jpg">
 			</div>
 		</div>
-
 	</div>
 	<div class="container-fluid" id="secondary-section">
 		<div class="row">
 			<div class="col">
-				<h3 class="projects-h3-subheads">The problem</h3>
+				<h3 class="projects-h3-subheads">The OPPORTUNITY</h3>
 				<p class="projects-paragraph">Many technology and science magazines currently exist, from Wired to Popular Science, but there has yet to be a technology magazine for creatives. Experience, interaction and web technologies are in constant flux and require professionals in those fields to stay up to date with current trends, technologies and systems.</p>
 			</div>
 		</div>
-
-		
 		<div class="row">
 			<div class="col">
 				<h3 id="pg-title">Project goals</h3>
 				<ul class="goals-list">
-					<li class="goals-li">Create a technology magazine that is accessible, interesting and useful</li>
+					<li class="goals-li" id="op-top">Create a technology magazine that is accessible, interesting and useful</li>
 					<li class="goals-li">Offer beginning, intermediate, and advanced content and tutorials</li>
-					<li class="goals-li">Create a reader base that is informed about the changing technology landscape, without buzzwords</li>
+					<li class="goals-li" id="margin-test">Create a reader base that is informed about the changing technology landscape, without buzzwords</li>
 				</ul>
 			</div>
 		</div>
@@ -126,29 +81,8 @@
 				<img class="bottom-image" src="images/contract.jpg">
 			</div>
 		</div>
-		<!-- <div class="row">
-			<div class="col-6">
-				<h3 class="projects-h3-subheads">The problem</h3>
-				<p class="projects-paragraph">Many technology and science magazines currently exist, from Wired to Popular Science, but there has yet to be a technology magazine for creatives. Experience, interaction and web technologies are in constant flux and require professionals in those fields to stay up to date with current trends, technologies and systems.</p>
-			</div>
-		</div> -->
-		<!-- <div class="row">
-			<div class="col-6">
-				<h3 class="projects-h3-subheads" id="pg-title">Project goals</h3>
-				<ul class="goals-list">
-					<li class="goals-li">Create a technology magazine that is accessible, interesting and useful</li>
-					<li class="goals-li">Offer beginning, intermediate, and advanced content and tutorials</li>
-					<li class="goals-li">Create a reader base that is informed about the changing technology landscape, without relying on buzzwords</li>
-				</ul>
-			</div>
-		</div> -->
 	</div>
 	<div class="container-fluid" id="process-section">
-		<!-- <div class="row">
-			<div class="col">
-				
-			</div>
-		</div> -->
 		<div class="row">
 			<div class="col-6">
 				<h3 class="projects-h3-subheads">The Process</h3>
@@ -223,31 +157,10 @@
 		</div>
 
 	</div>
-
-		<!-- <div class="process-one">
-			<h3>The Process</h3>
-			<p>PROCESS #1 goes here</p>
-			<img src="">
-		
-		<div class="process-two">
-			<h3>The Process</h3>
-			<img src="">
-			<p>PROCESS #1 goes here</p>
-		</div>
-		<div class="process-three">
-			<h3>The Process</h3>
-			<p>PROCESS #1 goes here</p>
-			<img src="">
-		</div>
-	</div>  -->
-	<!-- <div class="solution-section">
-		<h3>The Solution</h3>
-		<p>Solution text goes here</p>
-	</div> -->
-	<div class="container-fluid">
+	<div class="container-fluid" id="bottom-nav-custom">
 		<div class="row">
 			<div class="col">
-				<a class="left-arrow-project" href="ssff.html"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Portshowlio Website Food Festival</a>
+				<a class="left-arrow-project" href="choice.html"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Previous: Choice</a>
 			</div>
 			<div class="col">
 				<a class="right-arrow-project" href="ssff.html">Next: Seattle Street Food Festival&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
