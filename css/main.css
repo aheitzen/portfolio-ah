@@ -47,6 +47,31 @@ nav {
 	margin-bottom: 11em;
 }
 
+.no-margin {
+	margin-top: 0.2em;
+	color: black;
+	font-family: var(--paragraph-font);
+    letter-spacing: 1.5px;
+	margin-bottom: 0;
+	transition: all .7s ease;
+	font-weight: bolder;
+	font-size: 27px;
+	margin-left: 2.4em;
+}
+
+.no-margin-1 {
+	margin-top: 0.8em;
+	color: black;
+	font-family: var(--paragraph-font);
+    letter-spacing: 1.5px;
+	margin-bottom: 0;
+	transition: all .7s ease;
+	font-weight: bolder;
+	font-size: 27px;
+	    margin-left: 2.4em;
+}
+
+
 .active {
 	color: var(--pink-color) !important;
 }
@@ -637,7 +662,7 @@ span {
     letter-spacing: 3px;
     font-size: 10em;
     margin-bottom: 0;
-    margin-left: -5px;
+    margin-left: 30px;
     margin-top: .2em;
 }
 
@@ -646,9 +671,10 @@ span {
     margin-bottom: 0;
     color: black;
     /*text-align: center;*/
-    margin-top: 0.6em;
+    margin-top: 0.8em;
     font-size: 2.5em;
     letter-spacing: 3px;
+        margin-left: 1em;
 }
 
 .project-post-h3 {
@@ -686,7 +712,7 @@ span {
     margin-bottom: 0;
     padding-left: 20px;
     color: black;
-    margin-bottom: 7em;
+    margin-left: 3em;
 }
 
 .projects-paragraph {
@@ -695,7 +721,8 @@ span {
     letter-spacing: 1.5px;
     width: 90%;
     color: black;
-    margin-top: 1em;
+    margin-left: 3.6em;
+    /*margin-top: 1em;*/
 }
 
 .projects-paragraph-hero {
@@ -704,16 +731,22 @@ span {
 	font-family: var(--paragraph-font);
     letter-spacing: 1.5px;
     font-size: 17px;
-    margin-top: 3.2em;
+    margin-top: 1em;
+        margin-left: 2.5em;
 }
 
 .projects-paragraph-black {
 	font-family: var(--paragraph-font);
     font-weight: lighter;
     letter-spacing: 1.5px;
-    width: 80%;
+    width: 90%;
     color: black;
-    margin-top: 1em;
+    margin-top: .2em;
+    margin-left: 4.1em;
+}
+
+#opportunity {
+	margin-top: 1.2em;
 }
 
 .projects-paragraph-sm {
@@ -754,13 +787,13 @@ span {
 
 .projects-h3-subheads {
     color: black;
-	margin-top: 1.8em;
+	margin-top: 1em;
     font-size: 5em;
     letter-spacing: 3px;
-    /*text-transform: uppercase;*/
-    margin-left: -10px;
+    /*margin-left: -10px;*/
     font-family: var(--header-font);
-    margin-bottom: .5em;
+    margin-bottom: .2em;
+    margin-left: .7em;
 }
 
 .black-back {
@@ -782,7 +815,7 @@ a.right-arrow-project {
     margin-bottom: 4em;
     transition: all .7s ease;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 27px;
 }
 
 a.left-arrow-project {
@@ -795,7 +828,7 @@ a.left-arrow-project {
     margin-bottom: 0;
     transition: all .7s ease;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 27px;
 }
 
 a.right-arrow-project:hover {
@@ -826,6 +859,7 @@ a:hover {
     align-items: end;
     margin-top: 2em;
     color: black;
+        margin-left: 3.5em;
 }
 
 .goals-li {
@@ -845,30 +879,42 @@ a:hover {
     color: black;
     transition: all .7s ease;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 18px;
+        margin-left: 3.5em;
 }
 
 .bold-project {
 	color: black;
 	font-family: var(--paragraph-font);
     letter-spacing: 1.5px;
-	margin-top: 1em;
+	margin-top: 3em;
 	margin-bottom: 0;
 	transition: all .7s ease;
 	font-weight: bolder;
 	font-size: 23px;
+	margin-left: 2em;
 	
+}
+
+#project-goals-ss {
+	margin-bottom: 1.3em;
+}
+
+#project-goals-bottom-ss {
+	margin-top: 8.8em;
 }
 
 .bold-project-black {
 	color: black;
 	font-family: var(--paragraph-font);
     letter-spacing: 1.5px;
-	margin-top: 1em;
+	margin-top: 2em;
 	margin-bottom: 0;
 	transition: all .7s ease;
 	font-weight: bolder;
-	font-size: 23px;
+	font-size: 27px;
+	    margin-left: 2.1em;
+	        margin-bottom: .4em;
 }
 
 .bold-project-process {
@@ -879,16 +925,16 @@ a:hover {
 	margin-bottom: 0;
 	transition: all .7s ease;
 	font-weight: bolder;
-	font-size: 23px;
+	font-size: 27px;
 }
 
 .captions {
 	font-family: var(--paragraph-font);
-    font-weight: lighter;
     letter-spacing: 1.5px;
-    width: 90%;
     margin-top: 1em;
     font-style: italic;
+    width: 90%;
+    color: black;
 }
 
 .captions-thumb {
@@ -899,6 +945,7 @@ a:hover {
     margin-top: 1em;
     font-style: italic;
     margin-left: 61.422px;
+    color: black;
 }
 
 .web-link:hover {
