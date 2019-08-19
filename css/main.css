@@ -988,7 +988,6 @@ a:hover {
 	font-size: 8em;
 }
 
-/*PORTSHOWLIO*/
 
 #show-h1-sm {
 	font-size: 7.5em;
@@ -1001,36 +1000,86 @@ a:hover {
 	margin-top: 4em;
 }
  
-/*@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 480px) {
-	
-  }*/
 
-  @media only screen 
+@media only screen 
 and (min-width : 320px) 
 and (max-width : 480px) {
 	h1.about {
-		/*font-size: 4.5em;*/
-		/*margin-top: 1em;*/
-		/*margin-left: 6px;*/
 		color: white;
 		font-size: 4.2em;
 		    margin-top: 1.2em;
-		/*text-align: center;*/
 	}
 	h1.h1-about {
 		font-size: 7em;
-		/*margin-top: 0.8em;*/
+	
 	}
 	.about-h2 {
 		font-size: 2em;
 
     letter-spacing: 2px;
 	}
+	.goals-list {
+		margin-top: 11em;
+		margin-left: 0;
+	}
+	.goals-li {
+		font-weight: 500;
+		font-size: 17px;
+	}
+	.project-post-h1 {
+		margin-top: 1em;
+		font-size: 9em;
+	}
+	.projects-h3-subheads {
+		font-size: 3.5em;
+		margin-left: 9px;
+	}
+	.no-margin {
+		margin-left: .2em;
+	}
+	#project-goals-bottom-ss {
+		margin-top: 11em;
+		width: 105%;
+		margin-left: 0;
+	}
+	#project-goals-bottom-ss-sm-margin {
+		width: 105%;
+		margin-left: 0;
+	}
+	#capt-left-no {
+		margin-left: 0em;
+	}
+	.projects-paragraph-black {
+		font-family: var(--paragraph-font);
+		font-weight: 500;
+    	letter-spacing: 1.5px;
+    	width: 100%;
+    	color: black;
+    	margin-top: 1em;
+    	margin-left: 0.5em;
+    	font-size: 17px;
+	}
+	.bottom-image {
+		width: 100%;
+		margin-left: 1.6em;
+	}
+	.captions {
+		margin-left: 1.6em;
+	}
+	.bold-project {
+		margin-top: 1em;
+		font-weight: 600;
+	}
 
 	#mobile-back-home {
 		display: none;
+	}
+	.container.padding-left-zero {
+		padding-left: 0;
+	}
+	h2.project-post-h2 {
+		margin-top: 7px;
+		margin-bottom: .6em;
 	}
 
 	.flex {
@@ -1046,11 +1095,8 @@ and (max-width : 480px) {
 
 	}
 	.hero-h2 {
-		
-		    font-size: 14px;
-		
+		font-size: 14px;
 	}
-
 	.header-h2 {
 		font-size: 20px;
 	}
@@ -1131,7 +1177,6 @@ and (max-width : 480px) {
 	}
 	.footer-mobile {
 		flex-direction: column;
-		/*margin-left: 6px;*/
 	}
 	.min-footer-2 {
 		text-align: center;
@@ -1156,20 +1201,18 @@ and (max-width : 480px) {
 	.home-icon {
 		display: none;
 	}
-	/*.container-fluid.margin-top-64 {
-		display: none;
-	}*/
 	ul {
 		padding-left: 0;
 	}
 	.work-type {
 		    margin-left: 6px;
 	}
-	/*.nav-img {
-		display: none;
-	}*/
+	.project-post-ul {
+		font-size: 17px;
+	}
 
 }
+
 
 /*IPAD SIZE*/
 @media only screen
@@ -1207,9 +1250,6 @@ and (max-width : 1024px) {
 		display: flex;
 		justify-content: center;
 	}
-	/*#testt {
-    	flex-direction: column-reverse;
-    }*/
     .mobile-reverse {
 		flex-direction: column-reverse;
 	}
@@ -1248,11 +1288,7 @@ and (max-width : 1366px) {
     .mobile-reverse {
 		flex-direction: unset;
 	}
-    
-    
-    /*.mobile-reverse {
-    	flex-direction: column-reverse;
-    }*/
+
    
 }
 
