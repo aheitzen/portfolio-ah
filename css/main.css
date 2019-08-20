@@ -1073,7 +1073,6 @@ and (max-width : 480px) {
 		font-weight: 600;
 	}
 	.image-grid-two {
-		/*height: 260px;*/
 		height: 237px;
 		margin-left: 0;
 	}
@@ -1116,14 +1115,10 @@ and (max-width : 480px) {
     	margin-top: 3em;
 
 	}
-	/*.captions {
-		margin-left: 1.6em;
-	}*/
 	.bold-project {
 		margin-top: 1em;
 		font-weight: 600;
 	}
-
 	#mobile-back-home {
 		display: none;
 	}
@@ -1134,7 +1129,6 @@ and (max-width : 480px) {
 		margin-top: 7px;
 		margin-bottom: .6em;
 	}
-
 	.flex {
 		align-items: unset;
 	}
@@ -1145,7 +1139,6 @@ and (max-width : 480px) {
 	.skill-list {
 		padding-left: 30px;
 		margin-top: -1em;
-
 	}
 	.hero-h2 {
 		font-size: 14px;
@@ -1158,15 +1151,14 @@ and (max-width : 480px) {
 		padding-right: 24px;
 	}
 	.container {
-		    padding-left: 30px;
-    padding-right: 5px;
+		padding-left: 30px;
+    	padding-right: 5px;
 	}
 	h1.selected-work-h1 {
-    margin-bottom: 38px;
+    	margin-bottom: 38px;
         font-size: 53px;
-            margin-top: 1em;
-  
-	}
+        margin-top: 1em;
+    }
 	#mobile-e-i {
 		font-size: 24px;
 	}
@@ -1184,15 +1176,11 @@ and (max-width : 480px) {
 	h4.work-title {
 		margin-left: 0px;
 		font-size: 3.9em;
-		/*text-align: center;*/
 	}
-	
-	
 	.about-image {
-   	
-        margin: 0 auto;
-             margin-top: 8em;
-         margin-bottom: 2em;
+   		margin: 0 auto;
+        margin-top: 8em;
+        margin-bottom: 2em;
 	}
 	.mobile-centered {
 		display: flex;
@@ -1210,20 +1198,15 @@ and (max-width : 480px) {
 		flex-direction: column-reverse;
 	}
 	.h3-work-page {
-		/*margin-left: 6px;*/
 		font-size: 16px;
 		margin-left: 6px;
-		/*text-align: center;*/
 	}
 	.thanks-browsing {
 		margin-top: 2em;
 		font-size: 2.4em;
-		/*text-align: center;*/
 	}
 	.thanks-browsing-h2 {
-		/*margin-left: 6px;*/
 		font-size: 16px;
-		/*text-align: center;*/
 	}
 	.margin-top {
 		margin-top: 6em;
@@ -1233,9 +1216,8 @@ and (max-width : 480px) {
 	}
 	.min-footer-2 {
 		text-align: center;
-    
-    margin-top: 6em;
-    font-size: 11px;
+    	margin-top: 6em;
+    	font-size: 11px;
 	}
 	.back-up {
 		display: none;
@@ -1244,12 +1226,11 @@ and (max-width : 480px) {
 		margin-top: 1.5em;
 	}
 	.margin-bottom {
-    
-        margin-bottom: 2.4em;
+    	margin-bottom: 2.4em;
 	}
 	.nav-li {
-		    font-size: 7px;
-		    margin-right: 0;
+		font-size: 7px;
+		margin-right: 0;
 	}
 	.home-icon {
 		display: none;
@@ -1263,7 +1244,6 @@ and (max-width : 480px) {
 	.project-post-ul {
 		font-size: 16px;
 	}
-
 }
 
 
@@ -1297,11 +1277,16 @@ and (max-width : 1024px) {
     	margin-top: 6em;
 	}
 	.back-carrot {
-    	margin-bottom: 4em;
+    	font-weight: 600;
 	}
 	#tablet-center {
 		display: flex;
 		justify-content: center;
+	}
+	#tablet-center-1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
     .mobile-reverse {
 		flex-direction: column-reverse;
@@ -1318,8 +1303,25 @@ and (max-width : 1024px) {
 		display: flex;
 		justify-content: center;
 	}
-
-
+	.bold-project {
+		margin-top: 1.5em;
+		font-weight: 600;
+	}
+	.projects-paragraph-black {
+		font-weight: unset;
+	}
+	#project-goals-ss {
+		margin-bottom: 108px;
+	}
+	.goals-li {
+		font-weight: unset;
+	}
+	a.right-arrow-project {
+		font-size: 24px;
+	}
+	a.left-arrow-project {
+		font-size: 24px;
+	}
 }
 
 /*IPAD PRO SIZE*/
