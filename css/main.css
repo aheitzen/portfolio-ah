@@ -919,6 +919,11 @@ a:hover {
     margin-top: .5em;
 }
 
+#project-goals-open {
+	margin-bottom: 127px;
+    margin-top: .5em;
+}
+
 #project-goals-bottom-ss {
 	margin-top: 6em;
 }
@@ -929,6 +934,10 @@ a:hover {
 
 #process-header {
 	margin-top: .5em;
+}
+
+#bottom-image-open-source {
+	margin-top: 10em;
 }
 
 .bold-project-black {
