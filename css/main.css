@@ -922,7 +922,6 @@ a:hover {
 	color: black;
 	font-family: var(--paragraph-font);
     letter-spacing: 1.5px;
-	margin-top: 1.7em;
 	margin-bottom: 0;
 	transition: all .7s ease;
 	font-weight: bolder;
@@ -943,6 +942,15 @@ a:hover {
 }
 
 .captions {
+	font-family: var(--paragraph-font);
+    letter-spacing: 1.5px;
+    margin-top: 1em;
+    font-style: italic;
+    width: 90%;
+    color: black;
+}
+
+.captions-one  {
 	font-family: var(--paragraph-font);
     letter-spacing: 1.5px;
     margin-top: 1em;
@@ -1021,29 +1029,68 @@ and (max-width : 480px) {
 	.goals-list {
 		margin-top: 11em;
 		margin-left: 0;
+		padding-right: 13px;
+	}
+	.projects-paragraph-hero {
+		padding-left: 1px;
+		padding-right: 10px;
+		font-size: 16px;
+	}
+	.image-grid-two-vert {
+		height: 435px;
 	}
 	.goals-li {
 		font-weight: 500;
-		font-size: 17px;
+		font-size: 16px;
+	}
+	a.right-arrow-project {
+		font-size: 15px;
+		    font-size: 17px;
+    font-weight: 600;
+	}
+	a.left-arrow-project {
+		font-size: 15px;
+		    font-size: 17px;
+    font-weight: 600;
+	}
+	.captions-one {
+		margin-left: 1.6em;
 	}
 	.project-post-h1 {
 		margin-top: 1em;
-		font-size: 9em;
+		font-size: 8em;
+	}
+	.web-link {
+		margin-left: .5em;
 	}
 	.projects-h3-subheads {
-		font-size: 3.5em;
+		font-size: 3.2em;
 		margin-left: 9px;
+	}
+	.no-margin-1 {
+		margin-left: .2em;
+		font-weight: 600;
+	}
+	.image-grid-two {
+		height: 260px;
+		margin-left: 0;
+	}
+	.captions-thumb {
+		font-weight: 500;
+		margin-left: 0;
 	}
 	.no-margin {
 		margin-left: .2em;
+		font-weight: 600;
 	}
 	#project-goals-bottom-ss {
-		margin-top: 11em;
-		width: 105%;
+		width: 340px;
 		margin-left: 0;
-	}
+ 		margin-top: 11em;
+ 	}
 	#project-goals-bottom-ss-sm-margin {
-		width: 105%;
+		width: 340px;
+    	margin-top: 2em;
 		margin-left: 0;
 	}
 	#capt-left-no {
@@ -1057,15 +1104,18 @@ and (max-width : 480px) {
     	color: black;
     	margin-top: 1em;
     	margin-left: 0.5em;
-    	font-size: 17px;
+    	font-size: 16px;
+    	padding-right: 23px;
 	}
 	.bottom-image {
-		width: 100%;
-		margin-left: 1.6em;
+    	width: 340px;
+   		margin: 0 auto;
+    	margin-top: 3em;
+
 	}
-	.captions {
+	/*.captions {
 		margin-left: 1.6em;
-	}
+	}*/
 	.bold-project {
 		margin-top: 1em;
 		font-weight: 600;
@@ -1208,7 +1258,7 @@ and (max-width : 480px) {
 		    margin-left: 6px;
 	}
 	.project-post-ul {
-		font-size: 17px;
+		font-size: 16px;
 	}
 
 }
