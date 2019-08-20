@@ -909,6 +909,9 @@ a:hover {
 	
 }
 
+.attr-web-links {
+	margin-bottom: 1em;
+}
 #project-goals-ss {
 	margin-bottom: 1em;
 	margin-top: .5em;
@@ -917,6 +920,10 @@ a:hover {
 #project-goals-star {
 	margin-bottom: 110px;
     margin-top: .5em;
+}
+
+#project-goals-bottom-show {
+	margin-top: 5em;
 }
 
 #project-goals-open {
@@ -939,6 +946,12 @@ a:hover {
 #bottom-image-open-source {
 	margin-top: 10em;
 }
+
+#project-goals-show {
+	margin-bottom: 61px;
+	margin-top: .5em;
+}
+
 
 .bold-project-black {
 	color: black;
