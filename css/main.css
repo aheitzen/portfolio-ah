@@ -1320,6 +1320,19 @@ and (max-width : 480px) {
 		font-size: 4em;
 		margin-top: 2em;
 	}
+	#goals-list-carry-on {
+		margin-top: 13em;
+	}
+	#project-goals-bottom-carry {
+		margin-top: 12.5em;
+		margin-left: 0;
+	}
+	#project-goals-bottom-carry-1 {
+		margin-left: 0;
+	}
+	iframe {
+		display: none;
+	}
 }
 
 
@@ -1358,6 +1371,10 @@ and (max-width : 1024px) {
 	#tablet-center {
 		display: flex;
 		justify-content: center;
+	}
+	#goals-list-carry-on {
+
+	    margin-top: 7em;
 	}
 	#tablet-center-1 {
 		display: flex;
@@ -1407,6 +1424,9 @@ and (max-width : 1024px) {
 	}
 	#bottom-image-open-source {
 		margin-top: 12em;
+	}
+	iframe {
+		width: 95%;
 	}
 
 }
