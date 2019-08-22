@@ -1389,6 +1389,12 @@ and (max-width : 1024px) {
     	margin-bottom: 168px;
     	margin-top: .5em;
 	}
+	#open-source-goals-list {
+		margin-top: 12em;
+	}
+	#bottom-image-open-source {
+		margin-top: 12em;
+	}
 
 }
 
@@ -1410,6 +1416,12 @@ and (max-width : 1366px) {
     }
     .mobile-reverse {
 		flex-direction: unset;
+	}
+	#open-source-goals-list {
+		margin-top: 9em;
+	}
+	#bottom-image-open-source {
+		margin-top: 10em;
 	}
 
    
