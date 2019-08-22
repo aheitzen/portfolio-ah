@@ -755,6 +755,7 @@ span {
 
 #opportunity {
 	margin-top: .5em;
+	margin-bottom: 30px;
 }
 
 
@@ -878,35 +879,31 @@ a:hover {
     margin-top: 1em;
 }
 
-/*#web-link-margin {
-	margin-bottom: 2em;
-}*/
-
-/*STAR SIGNS*/
 .web-link {
-
-	    font-family: var(--paragraph-font);
+	font-family: var(--paragraph-font);
     letter-spacing: 1.5px;
     margin-top: 1em;
     margin-bottom: 0;
     color: black;
     transition: all .7s ease;
-   /* font-weight: bolder;*/
     font-size: 18px;
-        margin-left: 3.5em;
+    margin-left: 3.5em;
 }
 
 .bold-project {
 	color: black;
 	font-family: var(--paragraph-font);
     letter-spacing: 1.5px;
-	margin-top: 3em;
+	margin-top: 2em;
 	margin-bottom: 0;
 	transition: all .7s ease;
 	font-weight: 600;
 	font-size: 23px;
 	margin-left: 2em;
-	
+}
+
+#carty-on-vert {
+	margin-top: 3em;
 }
 
 .attr-web-links {
@@ -928,6 +925,7 @@ a:hover {
 
 #project-goals-carry {
 	margin-bottom: 90px;
+	margin-top: .5em;
 }
 
 #project-goals-open {
@@ -948,6 +946,11 @@ a:hover {
 }
 
 #process-header {
+	margin-top: .5em;
+}
+
+#note-header {
+	margin-bottom: 0;
 	margin-top: .5em;
 }
 
@@ -1160,7 +1163,7 @@ and (max-width : 480px) {
 	}
 	.bold-project {
 		margin-top: 1em;
-		font-weight: 600;
+		font-weight: 700;
 	}
 	#mobile-back-home {
 		display: none;
