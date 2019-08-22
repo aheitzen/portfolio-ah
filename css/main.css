@@ -1136,10 +1136,12 @@ and (max-width : 480px) {
 		font-weight: 600;
 	}
 	#project-goals-bottom-ss {
-		/*width: 340px;*/
 		width: 317px;
 		margin-left: 0;
  		margin-top: 11em;
+ 	}
+ 	#goals-list-port-show {
+ 		margin-top: 8em;
  	}
 	#project-goals-bottom-ss-sm-margin {
 		width: 317px;
@@ -1148,6 +1150,10 @@ and (max-width : 480px) {
 	}
 	#capt-left-no {
 		margin-left: 0em;
+	}
+	#project-goals-bottom-show {
+		margin-top: 7em;
+		margin-left: 0;
 	}
 	.projects-paragraph-black {
 		font-family: var(--paragraph-font);
@@ -1309,6 +1315,10 @@ and (max-width : 480px) {
 	#bottom-image-open-source {
 		margin-top: 18em;
 		margin-left: 0;
+	}
+	#mobile-sm-port {
+		font-size: 4em;
+		margin-top: 2em;
 	}
 }
 
