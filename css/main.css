@@ -1352,6 +1352,9 @@ and (max-width : 1024px) {
 	.margin-top-64 {
     	margin-top: 6em;
 	}
+	#mobile-sm-port {
+		font-size: 9em;
+	}
 	#tablet-center {
 		display: flex;
 		justify-content: center;
