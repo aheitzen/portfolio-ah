@@ -1110,6 +1110,10 @@ and (max-width : 480px) {
 		margin-left: .5em;
 		font-size: 16px;
 	}
+	.projects-paragraph {
+		margin-left: 1em;
+		font-size: 16px;
+	}
 	.projects-h3-subheads {
 		font-size: 3.2em;
 		margin-left: 9px;
@@ -1117,6 +1121,7 @@ and (max-width : 480px) {
 	.no-margin-1 {
 		margin-left: .2em;
 		font-weight: 600;
+		font-size: 25px;
 	}
 	.image-grid-two {
 		height: 237px;
@@ -1289,6 +1294,14 @@ and (max-width : 480px) {
 	}
 	.project-post-ul {
 		font-size: 16px;
+	}
+	#goals-list-mobile {
+		margin-top: 17.5em;
+	}
+	#project-goals-bottom-star {
+		margin-top: 17em;
+		    width: 317px;
+    margin-left: 0;
 	}
 }
 
