@@ -1303,6 +1303,13 @@ and (max-width : 480px) {
 		width: 317px;
     	margin-left: 0;
 	}
+	#open-source-goals-list {
+		margin-top: 18em;
+	}
+	#bottom-image-open-source {
+		margin-top: 18em;
+		margin-left: 0;
+	}
 }
 
 
@@ -1382,6 +1389,7 @@ and (max-width : 1024px) {
     	margin-bottom: 168px;
     	margin-top: .5em;
 	}
+
 }
 
 /*IPAD PRO SIZE*/
