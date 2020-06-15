@@ -71,6 +71,17 @@ nav {
 	    margin-left: 2.4em;
 }
 
+i.fas.fa-home {
+    color: white;
+    font-size: 18px;
+}
+
+i.fas.fa-home:hover {
+    color: #ff6666;
+    font-size: 18px;
+}
+
+
 
 .active {
 	color: var(--pink-color) !important;
